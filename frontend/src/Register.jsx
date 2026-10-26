@@ -8,7 +8,8 @@ function Register() {
     const handleRegister = async () => {
         try {
             const response = await fetch(
-                fetch("https://taskflow-backend-jkxj.onrender.com/api/register"),
+                "https://taskflow-backend-jkxj.onrender.com/api/register",
+
                 {
                     method: "POST",
                     headers: {
