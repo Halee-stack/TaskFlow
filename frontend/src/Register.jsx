@@ -8,7 +8,7 @@ function Register() {
     const handleRegister = async () => {
         try {
             const response = await fetch(
-                "http://localhost:5001/api/register",
+                fetch("https://taskflow-backend-jkxj.onrender.com/api/register"),
                 {
                     method: "POST",
                     headers: {
