@@ -25,7 +25,7 @@ function Dashboard({ token, onLogout }) {
         const fetchTasks = async () => {
             try {
                 const response = await fetch(
-                    fetch("https://taskflow-backend-jkxj.onrender.com/api/tasks"),
+                    "https://taskflow-backend-jkxj.onrender.com/api/tasks",
                     {
                         headers: {
                             Authorization: `Bearer ${token}`,
