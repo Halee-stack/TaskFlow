@@ -53,7 +53,7 @@ function Dashboard({ token, onLogout }) {
 
         try {
             const response = await fetch(
-                "http://localhost:5001/api/tasks",
+                "https://taskflow-backend-jkxj.onrender.com/api/tasks",
                 {
                     method: "POST",
                     headers: {
@@ -88,7 +88,7 @@ function Dashboard({ token, onLogout }) {
     const deleteTask = async (id) => {
         try {
             const response = await fetch(
-                `http://localhost:5001/api/tasks/${id}`,
+                `https://taskflow-backend-jkxj.onrender.com/api/tasks/${id}`,
                 {
                     method: "DELETE",
                     headers: {
@@ -114,7 +114,7 @@ function Dashboard({ token, onLogout }) {
     const toggleTask = async (task) => {
         try {
             const response = await fetch(
-                `http://localhost:5001/api/tasks/${task.id}`,
+                `https://taskflow-backend-jkxj.onrender.com/api/tasks/${task.id}`,
                 {
                     method: "PUT",
                     headers: {
@@ -150,7 +150,7 @@ function Dashboard({ token, onLogout }) {
 
         try {
             const response = await fetch(
-                `http://localhost:5001/api/tasks/${task.id}`,
+                `https://taskflow-backend-jkxj.onrender.com/api/tasks/${task.id}`,
                 {
                     method: "PUT",
                     headers: {
