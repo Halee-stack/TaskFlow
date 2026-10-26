@@ -86,3 +86,15 @@ The React frontend communicates with the Express backend through HTTP requests. 
 **Halee-stack**
 
 GitHub: https://github.com/Halee-stack
+
+
+## Application Screenshots
+
+### Homepage
+![TaskFlow Homepage](screenshots/homepage.png)
+
+### Dashboard
+![TaskFlow Dashboard](screenshots/dashboard.png)
+
+### Task Management
+![TaskFlow Tasks](screenshots/tasks.png)
